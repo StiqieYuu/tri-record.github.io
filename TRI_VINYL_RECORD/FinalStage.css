@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,500&display=swap'); 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.logo a{
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+body{
+  background: linear-gradient(135deg, #96c9cf, #8a68c0);
+  box-shadow: 10px;
+  max-height: 100%;
+  max-width: 100%;
+}
+body::-webkit-scrollbar{
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track{
+  background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb{
+  background: #6649b8;
+}
+.about{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  
+}
+.about .content img{
+  height: auto;
+  width: 600px;
+  max-width: 100%;
+}
+.text{
+  width: 550px;
+  max-width: 100%;
+  padding: 0 10px;
+}
+.content{
+  height: 90%;
+  width: 95%;
+  max-width: 95%;
+  margin: 0 ;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #66ACB4, #491f8f)
+}
+.text h1{
+  color: #df6158;
+  font-size: 60px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+
+.text h5{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.text p{
+  color: #c0c4d6;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 22px;
+}
+button{
+  background-color: #df6158;
+  color: black;
+  border: 2px solid transparent;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-size: 17px;
+  font-weight: bold;
+
+}
+img{
+  border-radius: 25px;
+}
+button:hover{
+  transform: scale(1.2);
+  background-color: transparent;
+  border: 2px solid #df6158;
+  color: #df6158;
+  transition: .4s;
+  cursor: pointer;
+}
+iframe{
+  border-radius: 25px;
+}
+@media screen and (max-width: 1180px){
+  .about{
+    width: 100%;
+    height: auto;
+    padding: 70px 0px;
+  }
+}
+@media screen and (max-width: 650px){
+  .about .content img{
+    margin-bottom: 35px;
+  }
+  .text h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+  }
+}
